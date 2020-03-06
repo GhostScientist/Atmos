@@ -13,6 +13,7 @@
 		54A7EADC2412C8E00070982D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A7EADA2412C8E00070982D /* Main.storyboard */; };
 		54A7EADE2412C8E10070982D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A7EADD2412C8E10070982D /* Assets.xcassets */; };
 		54A7EAE12412C8E10070982D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A7EADF2412C8E10070982D /* LaunchScreen.storyboard */; };
+		54A7EAED2412CDC10070982D /* WeatherReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A7EAEC2412CDC10070982D /* WeatherReading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		54A7EADD2412C8E10070982D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54A7EAE02412C8E10070982D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54A7EAE22412C8E10070982D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A7EAEC2412CDC10070982D /* WeatherReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		54A7EAD32412C8E00070982D /* Atmos */ = {
 			isa = PBXGroup;
 			children = (
+				54A7EAEB2412CBCB0070982D /* Networking */,
+				54A7EAEA2412CBC40070982D /* Controller */,
+				54A7EAE92412CBC10070982D /* View */,
+				54A7EAE82412CBBA0070982D /* Model */,
 				54A7EAD42412C8E00070982D /* AppDelegate.swift */,
 				54A7EAD62412C8E00070982D /* SceneDelegate.swift */,
-				54A7EAD82412C8E00070982D /* ViewController.swift */,
-				54A7EADA2412C8E00070982D /* Main.storyboard */,
 				54A7EADD2412C8E10070982D /* Assets.xcassets */,
 				54A7EADF2412C8E10070982D /* LaunchScreen.storyboard */,
 				54A7EAE22412C8E10070982D /* Info.plist */,
 			);
 			path = Atmos;
+			sourceTree = "<group>";
+		};
+		54A7EAE82412CBBA0070982D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54A7EAEC2412CDC10070982D /* WeatherReading.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54A7EAE92412CBC10070982D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54A7EADA2412C8E00070982D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54A7EAEA2412CBC40070982D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54A7EAD82412C8E00070982D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54A7EAEB2412CBCB0070982D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54A7EAD92412C8E00070982D /* ViewController.swift in Sources */,
+				54A7EAED2412CDC10070982D /* WeatherReading.swift in Sources */,
 				54A7EAD52412C8E00070982D /* AppDelegate.swift in Sources */,
 				54A7EAD72412C8E00070982D /* SceneDelegate.swift in Sources */,
 			);
