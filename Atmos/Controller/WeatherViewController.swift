@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WeatherViewController: UIViewController {
+    
+    let api_key = "333cb06e29556dbe8a456e060cc40f9b"
 
     override func viewDidLoad() {
         super.viewDidLoad()
