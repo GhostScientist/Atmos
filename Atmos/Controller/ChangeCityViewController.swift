@@ -9,6 +9,8 @@
 import UIKit
 
 class ChangeCityViewController: UIViewController {
+    
+    var delegate : ChangedLocationDelegate!
 
     override func viewDidLoad() {
         super.viewDidLoad()

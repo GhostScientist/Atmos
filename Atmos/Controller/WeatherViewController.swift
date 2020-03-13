@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol ChangedLocationDelegate {
+    func cityDidChange(cityName : String)
+}
+
 class WeatherViewController: UIViewController {
     
     let api_key = "333cb06e29556dbe8a456e060cc40f9b"
@@ -20,5 +24,12 @@ class WeatherViewController: UIViewController {
     }
 
 
+}
+
+extension WeatherViewController : ChangedLocationDelegate {
+    func cityDidChange(cityName : String) {
+        print("Changed city to \()")
+        // TODO Request weather
+    }
 }
 
