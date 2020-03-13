@@ -15,6 +15,7 @@
 		54A7EAE12412C8E10070982D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A7EADF2412C8E10070982D /* LaunchScreen.storyboard */; };
 		54A7EAED2412CDC10070982D /* WeatherReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A7EAEC2412CDC10070982D /* WeatherReading.swift */; };
 		54A7EAEF2412D1000070982D /* WeatherHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A7EAEE2412D1000070982D /* WeatherHelper.swift */; };
+		54BEDD42241BC0C700907CD4 /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BEDD41241BC0C700907CD4 /* ChangeCityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		54A7EAE22412C8E10070982D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54A7EAEC2412CDC10070982D /* WeatherReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReading.swift; sourceTree = "<group>"; };
 		54A7EAEE2412D1000070982D /* WeatherHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHelper.swift; sourceTree = "<group>"; };
+		54BEDD41241BC0C700907CD4 /* ChangeCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				54A7EAD82412C8E00070982D /* WeatherViewController.swift */,
+				54BEDD41241BC0C700907CD4 /* ChangeCityViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				54A7EAED2412CDC10070982D /* WeatherReading.swift in Sources */,
 				54A7EAD52412C8E00070982D /* AppDelegate.swift in Sources */,
 				54A7EAD72412C8E00070982D /* SceneDelegate.swift in Sources */,
+				54BEDD42241BC0C700907CD4 /* ChangeCityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

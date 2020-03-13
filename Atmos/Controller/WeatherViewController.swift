@@ -11,6 +11,8 @@ import UIKit
 class WeatherViewController: UIViewController {
     
     let api_key = "333cb06e29556dbe8a456e060cc40f9b"
+    
+    lazy var helper : WeatherHelper = WeatherHelper()
 
     override func viewDidLoad() {
         super.viewDidLoad()
