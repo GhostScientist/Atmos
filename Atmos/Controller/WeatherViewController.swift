@@ -23,13 +23,13 @@ class WeatherViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
 }
 
 extension WeatherViewController : ChangedLocationDelegate {
     func cityDidChange(cityName : String) {
-        print("Changed city to \()")
-        // TODO Request weather
+        print("Changed city to \(cityName)")
+        // TODO Request weather for City.
+        // Handle "" case.
     }
 }
 
