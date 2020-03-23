@@ -26,13 +26,10 @@ class WeatherReading : Codable {
     
     struct Main : Codable {
         var temp : Double
-        
-        var tempInC : Double {
-            get { return round(10*(temp - 273.15))/10 }
-        }
-        var tempInF : Double {
-            get { return round(10*(tempInC * (9/5) + 32))/10 }
-        }
+        var tempInC : Double { get { return round(10*(temp - 273.15))/10 } }
+        var tempInF : Double { get { return round(10*(tempInC * (9/5) + 32))/10 } }
+        var farenheitString : String { get { return "\(tempInF)°F"} }
+        var celsiusString : String { get { return "\(tempInC)°C"} }
     }
     
     func getWeatherIcon() -> String {
